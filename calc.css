@@ -1,0 +1,46 @@
+body{
+    background:linear-gradient(70deg, #c9e454 0%, #0a85a3 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.calc{
+    margin:50px 430px;
+    /* width : 300px; */
+    background:linear-gradient(70deg, #4e5725 0%, #30a2be 100%);
+    /* background: #383838a8; */
+    border-radius: 5px;
+    padding: 30px;
+    display:flex;
+    flex-wrap:wrap;
+}
+h1{
+    color : rgb(255, 255, 255);
+    text-align:center;
+    /* font-size:60px; */
+}
+
+#display{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:20px;
+}
+.buttons{
+    margin-top:10px;
+    padding-left:10px;
+}
+
+.btn{
+    font-size:20px;
+    width:60px;
+    height:50px;
+    border-radius:10px;
+    border:0;
+    margin:10px;
+    color:rgb(0, 0, 0)
+}
+.btn:hover{
+    background-color: rgb(26, 24, 113);
+    color:white;
+}
+
